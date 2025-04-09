@@ -17,7 +17,6 @@ For more information on MCP and how to build your own MCP servers using LLMs, ch
 - [Hybrid Search](#hybrid-search)
 - [Data Analytics](#data-analytics)
 - [Specialized Applications](#specialized-applications)
-- [Resource Distribution Analysis](#resource-distribution-analysis)
 
 ## Knowledge Graph Memory
 
