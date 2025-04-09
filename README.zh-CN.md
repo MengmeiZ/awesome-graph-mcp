@@ -2,6 +2,8 @@
 
 精选的基于图的模型上下文协议(Model Context Protocol, MCP)资源列表。
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 ## 目录
 
 - [知识图谱记忆](#知识图谱记忆)
