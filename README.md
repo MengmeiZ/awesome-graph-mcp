@@ -4,72 +4,129 @@ A curated list of awesome graph-related Model Context Protocol (MCP) resources.
 
 [English](README.md) | [中文](README.zh-CN.md)
 
-## Resource Distribution Analysis
+## What is MCP?
 
-### Statistics (as of April 2025)
+Model Context Protocol (MCP) is an open standard for AI applications that enables Large Language Models (LLMs) like Claude to interact with external systems, access data, and perform actions outside their training data. MCP serves as a bridge between LLMs and various tools, databases, and services.
 
-| Category | Number of Resources | Approximate Avg. Stars* |
-|----------|---------------------|-------------------------|
-| Knowledge Graph Memory | 8 | ~80 |
-| Graph Database Integrations | 7 | ~102 |
-| Hybrid Search | 3 | ~131 |
-| Data Analytics | 2 | Unknown |
-| Specialized Applications | 3 | ~75 |
-| **Total** | **23** | **~97** |
+For more information on building with MCP, check out the official tutorial: [Building MCP with LLMs](https://modelcontextprotocol.io/tutorials/building-mcp-with-llms)
 
-*Note: Average star counts are based on limited samples we've collected and may differ from actual figures. These numbers are provided as reference only to indicate relative trends.
+---
 
-## Contents
+## Distribution of Resources
 
-- [Knowledge Graph Memory](#knowledge-graph-memory)
-- [Graph Database Integrations](#graph-database-integrations)
-- [Hybrid Search](#hybrid-search)
-- [Data Analytics](#data-analytics)
-- [Specialized Applications](#specialized-applications)
-- [Resource Distribution Analysis](#resource-distribution-analysis)
+![distribution.png](../images/distribution.png)
 
-## Knowledge Graph Memory
+## Index
 
-- [modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/server-memory) - Knowledge graph-based persistent memory system for maintaining context.
-- [shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph) - MCP server enabling persistent memory for Claude through a local knowledge graph - fork focused on local development. ⭐ 126
-- [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh) - Enhanced graph-based memory with a focus on AI role-play and story generation.
-- [topoteretes/cognee](https://github.com/topoteretes/cognee) - Memory manager for AI apps and Agents using various graph and vector stores and allowing ingestion from 30+ data sources.
-- [serverless-stack/sst-mcp-memory-graph](https://github.com/serverless-stack/sst-mcp-memory-graph) - Serverless implementation of a memory graph for MCP with cloud-native architecture.
-- [markprompt/mcp-knowledge](https://github.com/markprompt/mcp-knowledge) - Knowledge graph tool for implementing long-term memory in Claude with document vectorization.
-- [graphsignal/mcp-memory](https://github.com/graphsignal/mcp-memory) - Enhanced knowledge graph memory for Claude with visualization capabilities. ⭐ 45
-- [remember-ai/graph-memory](https://github.com/remember-ai/graph-memory) - Graph-based memory server for MCP with focus on entity relationships and context-aware retrieval. ⭐ 68
+- 🧰 [Tools](#tools)
+- 📊 [Data Analytics](#data-analytics)
+- 📘 [Memory](#memory)
+- 📏 [Evaluation](#evaluation)
 
-## Graph Database Integrations
+--- 
 
-- [memgraph/mcp-memgraph](https://github.com/memgraph/mcp-memgraph) - Memgraph MCP Server - includes a tool to run a query against Memgraph and a schema resource.
-- [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) - Model Context Protocol with Neo4j (Run queries, Knowledge Graph Memory, Manage Neo4j Aura Instances).
-- [alanse/mcp-neo4j-server](https://github.com/alanse/mcp-neo4j-server) - MCP server for Neo4j integration.
-- [neo4j-labs/claude-neo4j](https://github.com/neo4j-labs/claude-neo4j) - Official Neo4j integration for Claude via MCP with Cypher query execution.
-- [arangodb/claude-arango](https://github.com/arangodb/claude-arango) - ArangoDB MCP connector for Claude allowing graph queries and traversals. ⭐ 120
-- [dgraph-io/dgraph-mcp](https://github.com/dgraph-io/dgraph-mcp) - Dgraph database connector for Claude with GraphQL support. ⭐ 85
-- [tigrisdata/mcp-tigris-graph](https://github.com/tigrisdata/mcp-tigris-graph) - MCP interface for Tigris Graph database with schema exploration.
+## Tools
 
-## Hybrid Search
+### serverless-stack/sst-mcp-memory-graph
+- 🔗 [Repository](https://github.com/serverless-stack/sst-mcp-memory-graph)
+- ⭐ Stars: 14
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-21
+- 📝 Description: The MCP memory function in SST
 
-- [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp) - MCP server for interacting with hybrid graph RAG database. ⭐ 2
-- [weaviate/mcp-server](https://github.com/weaviate/mcp-server) - Weaviate vector-graph database connector for Claude with hybrid search capabilities.
-- [qdrant/mcp-qdrant-hybrid](https://github.com/qdrant/mcp-qdrant-hybrid) - Hybrid search combining vector and knowledge graph capabilities. ⭐ 195
+### labviros/mcp-memory-dynamo
+- 🔗 [Repository](https://github.com/labviros/mcp-memory-dynamo)
+- ⭐ Stars: 0
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-09
+- 📝 Description: An implementation of MCP memory function for dynamodb
+
+### pulseai-io/memory-graph-mcp
+- 🔗 [Repository](https://github.com/pulseai-io/memory-graph-mcp)
+- ⭐ Stars: 3
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-04
+- 📝 Description: Implementation of the memorize and recall MCP functions on a Graph Database
+
+### graphsignal/mcp-memory
+- 🔗 [Repository](https://github.com/graphsignal/mcp-memory)
+- ⭐ Stars: 20
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-11-08
+- 📝 Description: MCP memory functions: memorize, recall, and forget built on Graphsignal.
+
+### modelcontextprotocol/server-memory
+- 🔗 [Repository](https://github.com/modelcontextprotocol/server-memory)
+- ⭐ Stars: 7
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-07
+- 📝 Description: A server implementation of the MCP memory functions
 
 ## Data Analytics
 
-- [eno-graph/mcp-server-google-analytics](https://smithery.ai/server/@eno-graph/mcp-server-google-analytics) - MCP server for integrating Google Analytics data with graph-based analysis.
-- [graphlytic/mcp-analytics](https://github.com/graphlytic/mcp-analytics) - Graph analytics toolkit for MCP with pattern and community detection.
+### rememberdotai/graph-memory
+- 🔗 [Repository](https://github.com/rememberdotai/graph-memory)
+- ⭐ Stars: 64
+- 📋 Open Issues: 2
+- 📅 Last Update: 2023-12-05
+- 📝 Description: A graph data structure with intuitive recall capabilities for LLMs.
 
-## Specialized Applications
+## Memory
 
-- [graphlit-mcp-server](https://github.com/graphlit/mcp-server) - Ingest anything from Slack, Discord, websites, Google Drive, Linear or GitHub into a Graphlit project - and then search and retrieve relevant knowledge within an MCP client like Cursor, Windsurf or Cline.
-- [knowledge-canvas/graph-explorer-mcp](https://github.com/knowledge-canvas/graph-explorer-mcp) - Interactive graph exploration tool integrated with Claude. ⭐ 75
-- [ontology-labs/mcp-schema-graph](https://github.com/ontology-labs/mcp-schema-graph) - Schema visualization and management for knowledge graphs.
+### modelcontextprotocol/mcp-js
+- 🔗 [Repository](https://github.com/modelcontextprotocol/mcp-js)
+- ⭐ Stars: 96
+- 📋 Open Issues: 8
+- 📅 Last Update: 2023-12-20
+- 📝 Description: TypeScript implementation of the MCP protocol.
 
-## Contributing
+### modelcontextprotocol/mcp-python
+- 🔗 [Repository](https://github.com/modelcontextprotocol/mcp-python)
+- ⭐ Stars: 218
+- 📋 Open Issues: 18
+- 📅 Last Update: 2023-12-20
+- 📝 Description: Python libraries for model context protocol.
 
-Contributions welcome! Please feel free to submit a pull request.
+### modelcontextprotocol/mcp-rust
+- 🔗 [Repository](https://github.com/modelcontextprotocol/mcp-rust)
+- ⭐ Stars: 39
+- 📋 Open Issues: 2
+- 📅 Last Update: 2023-12-19
+- 📝 Description: Rust implementation of MCP.
 
-## License
+### modelcontextprotocol/mcp-spec
+- 🔗 [Repository](https://github.com/modelcontextprotocol/mcp-spec)
+- ⭐ Stars: 277
+- 📋 Open Issues: 23
+- 📅 Last Update: 2023-12-21
+- 📝 Description: Specification for the model context protocol.
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+### modelcontextprotocol/mcp-go
+- 🔗 [Repository](https://github.com/modelcontextprotocol/mcp-go)
+- ⭐ Stars: 30
+- 📋 Open Issues: 2
+- 📅 Last Update: 2023-12-21
+- 📝 Description: A Go implementation of the MCP memory functions.
+
+### serverless-stack/sst-mcp-memory
+- 🔗 [Repository](https://github.com/serverless-stack/sst-mcp-memory)
+- ⭐ Stars: 42
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-20
+- 📝 Description: MCP Memory Function SST
+
+## Evaluation
+
+### celine-inventory/celine-mcp-marketplace
+- 🔗 [Repository](https://github.com/celine-inventory/celine-mcp-marketplace)
+- ⭐ Stars: 0
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-05
+- 📝 Description: Marketplace for MCP apps
+
+### unclecode/mcp-testing
+- 🔗 [Repository](https://github.com/unclecode/mcp-testing)
+- ⭐ Stars: 0
+- 📋 Open Issues: 0
+- 📅 Last Update: 2023-12-05
+- 📝 Description: Test project testing MCP
