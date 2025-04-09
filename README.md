@@ -22,7 +22,7 @@ For more information on MCP and how to build your own MCP servers using LLMs, ch
 ## Knowledge Graph Memory
 
 - [modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Knowledge graph-based persistent memory system for maintaining context.
-- [shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph) - MCP server enabling persistent memory for Claude through a local knowledge graph - fork focused on local development. ⭐ 126
+- [shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph) - MCP server enabling persistent memory for Claude through a local knowledge graph - fork focused on local development. 
 - [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh) - Enhanced graph-based memory with a focus on AI role-play and story generation.
 - [topoteretes/cognee](https://github.com/topoteretes/cognee) - Memory manager for AI apps and Agents using various graph and vector stores and allowing ingestion from 30+ data sources.
 - [serverless-stack/sst-mcp-memory-graph](https://smithery.ai/server/@serverless-stack/sst-mcp-memory-graph) - Serverless implementation of a memory graph for MCP with cloud-native architecture.
@@ -38,7 +38,7 @@ For more information on MCP and how to build your own MCP servers using LLMs, ch
 
 ## Hybrid Search
 
-- [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp) - MCP server for interacting with hybrid graph RAG database. ⭐ 2
+- [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp) - MCP server for interacting with hybrid graph RAG database. 
 - [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate) - Weaviate vector-graph database connector for Claude with hybrid search capabilities.
 
 ## Data Analytics
