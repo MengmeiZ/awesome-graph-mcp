@@ -10,21 +10,6 @@ Model Context Protocol (MCP) is an open standard for AI applications that enable
 
 For more information on MCP and how to build your own MCP servers using LLMs, check the [official Building MCP with LLMs tutorial](https://modelcontextprotocol.io/tutorials/building-mcp-with-llms).
 
-## Resource Distribution Analysis
-
-### Statistics (as of April 2025)
-
-| Category | Number of Resources | Approximate Avg. Stars* |
-|----------|---------------------|-------------------------|
-| Knowledge Graph Memory | 8 | ~80 |
-| Graph Database Integrations | 7 | ~102 |
-| Hybrid Search | 3 | ~131 |
-| Data Analytics | 2 | Unknown |
-| Specialized Applications | 3 | ~75 |
-| **Total** | **23** | **~97** |
-
-*Note: Average star counts are based on limited samples we've collected and may differ from actual figures. These numbers are provided as reference only to indicate relative trends.
-
 ## Contents
 
 - [Knowledge Graph Memory](#knowledge-graph-memory)
@@ -42,24 +27,19 @@ For more information on MCP and how to build your own MCP servers using LLMs, ch
 - [topoteretes/cognee](https://github.com/topoteretes/cognee) - Memory manager for AI apps and Agents using various graph and vector stores and allowing ingestion from 30+ data sources.
 - [serverless-stack/sst-mcp-memory-graph](https://smithery.ai/server/@serverless-stack/sst-mcp-memory-graph) - Serverless implementation of a memory graph for MCP with cloud-native architecture.
 - [markprompt/mcp-knowledge](https://smithery.ai/server/@markprompt/mcp-knowledge) - Knowledge graph tool for implementing long-term memory in Claude with document vectorization.
-- [graphsignal/mcp-memory](https://github.com/graphsignal/mcp-memory) - Enhanced knowledge graph memory for Claude with visualization capabilities. ⭐ 45
-- [remember-ai/graph-memory](https://github.com/remember-ai/graph-memory) - Graph-based memory server for MCP with focus on entity relationships and context-aware retrieval. ⭐ 68
 
 ## Graph Database Integrations
 
 - [memgraph/mcp-memgraph](https://github.com/memgraph/mcp-memgraph) - Memgraph MCP Server - includes a tool to run a query against Memgraph and a schema resource.
 - [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) - Model Context Protocol with Neo4j (Run queries, Knowledge Graph Memory, Manage Neo4j Aura Instances).
-- [alanse/mcp-neo4j-server](https://github.com/alanse/mcp-neo4j-server) - MCP server for Neo4j integration.
 - [neo4j-labs/claude-neo4j](https://smithery.ai/server/@neo4j-labs/claude-neo4j) - Official Neo4j integration for Claude via MCP with Cypher query execution.
-- [arangodb/claude-arango](https://github.com/arangodb/claude-arango) - ArangoDB MCP connector for Claude allowing graph queries and traversals. ⭐ 120
-- [dgraph-io/dgraph-mcp](https://github.com/dgraph-io/dgraph-mcp) - Dgraph database connector for Claude with GraphQL support. ⭐ 85
+- [johnymontana/dgraph-mcp-server](https://github.com/johnymontana/dgraph-mcp-server) - Dgraph database connector. 
 - [tigrisdata/mcp-tigris-graph](https://smithery.ai/server/@tigrisdata/mcp-tigris-graph) - MCP interface for Tigris Graph database with schema exploration.
 
 ## Hybrid Search
 
 - [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp) - MCP server for interacting with hybrid graph RAG database. ⭐ 2
 - [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate) - Weaviate vector-graph database connector for Claude with hybrid search capabilities.
-- [qdrant/mcp-qdrant-hybrid](https://github.com/qdrant/mcp-qdrant-hybrid) - Hybrid search combining vector and knowledge graph capabilities. ⭐ 195
 
 ## Data Analytics
 
@@ -69,7 +49,6 @@ For more information on MCP and how to build your own MCP servers using LLMs, ch
 ## Specialized Applications
 
 - [graphlit/graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server) - Ingest anything from Slack, Discord, websites, Google Drive, Linear or GitHub into a Graphlit project - and then search and retrieve relevant knowledge within an MCP client like Cursor, Windsurf or Cline.
-- [knowledge-canvas/graph-explorer-mcp](https://github.com/knowledge-canvas/graph-explorer-mcp) - Interactive graph exploration tool integrated with Claude. ⭐ 75
 - [ontology-labs/mcp-schema-graph](https://smithery.ai/server/@ontology-labs/mcp-schema-graph) - Schema visualization and management for knowledge graphs.
 
 ## Contributing
