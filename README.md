@@ -2,6 +2,8 @@
 
 A curated list of awesome graph-related Model Context Protocol (MCP) resources.
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 ## Contents
 
 - [Knowledge Graph Memory](#knowledge-graph-memory)
