@@ -1,7 +1,7 @@
 # Awesome Graph MCP：Graph相关MCP资源列表
 
 图相关的 Model Context Protocol (MCP) 资源列表。
-[English](https://www.notion.so/README.md) | [中文](https://www.notion.so/README.zh-CN.md)
+[English](https://github.com/MengmeiZ/awesome-graph-mcp/blob/main/README.md) | [中文](https://github.com/MengmeiZ/awesome-graph-mcp/blob/main/README.zh-CN.md)
 
 ## 什么是 MCP？
 Model Context Protocol（MCP）是一个面向AI应用的开放标准，使得像Claude这样的⼤型语⾔模型（LLM）能够与外部系统交互、访问数据并执行其训练数据之外的操作。MCP 作为 LLM 与各种工具、数据库和服务之间的桥梁。
