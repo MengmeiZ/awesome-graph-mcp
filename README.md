@@ -8,10 +8,6 @@ A list of graph-related Model Context Protocol (MCP) resources.
 Model Context Protocol (MCP) is an open standard for AI applications that enables Large Language Models (LLMs) like Claude to interact with external systems, access data, and perform actions outside their training data. MCP serves as a bridge between LLMs and various tools, databases, and services.
 For more information on MCP and how to build your own MCP servers using LLMs, check the [official Building MCP with LLMs tutorial](https://modelcontextprotocol.io/tutorials/building-mcp-with-llms).
 
-## Contents
-
-- 
-
 ## Knowledge Graph Memory
 
 - [modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) - Knowledge graph-based persistent memory for remembering information about the user across chats. 🎖️Official implementation
