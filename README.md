@@ -1,7 +1,7 @@
 # Awesome Graph MCP: A curated list of awesome graph-related Model Context Protocol (MCP) resources
 
 A curated list of graph-related Model Context Protocol (MCP) resources.
-[English](https://www.notion.so/README.md) | [中文](https://www.notion.so/README.zh-CN.md)
+[English](https://github.com/MengmeiZ/awesome-graph-mcp/blob/main/README.md) | [中文](https://github.com/MengmeiZ/awesome-graph-mcp/blob/main/README.zh-CN.md)
 
 ## What is MCP?
 
