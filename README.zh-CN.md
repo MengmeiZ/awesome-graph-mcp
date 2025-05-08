@@ -1,6 +1,6 @@
 # Awesome Graph MCP：Graph相关MCP资源列表
 
-调研图相关的 Model Context Protocol (MCP) 资源列表。
+图相关的 Model Context Protocol (MCP) 资源列表。
 [English](https://github.com/MengmeiZ/awesome-graph-mcp/blob/main/README.md) | [中文](https://github.com/MengmeiZ/awesome-graph-mcp/blob/main/README.zh-CN.md)
 
 ## 什么是 MCP？
